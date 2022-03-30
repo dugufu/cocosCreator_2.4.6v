@@ -51,7 +51,7 @@ allprojects {
     - 请把 buildDir = "C:/tmp/${rootProject.name}/${project.name}" 删除 ！ 一定要 一定要 一定要 ！
 
 
-1.2 然后把整个cocos proeject 搬运去C drive的 root地方 e.g : **C:/mytestingProject**
+1.2 然后把整个cocos proeject 搬运去C drive的 root地方 e.g : **C:/mytestingProject** <br>
     - >Tips : 不一定全部project都搬运 只有要release(发布)的project才需要放去 root(根)位置
 
 2. Android studio 打包apk报错 ⚠️Execution failed for task ':app:mergeReleaseResources
