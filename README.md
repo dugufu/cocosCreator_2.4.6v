@@ -46,7 +46,7 @@ C:projectName\build\jsb-default\publish\newProject.apk
 **问题遇到的 ：**
 1.
 Error while executing 'projectPath\ndk-build.cmd' with arguments {NDK_PROJECT_PATH=nul ...blablabla}
-Go to root build.gradle
+Go to root build.gradle 不一定解决 请往下看
 ```
 allprojects {
 //Adding this buildDir above repositories 
@@ -56,8 +56,13 @@ allprojects {
     }
 }
 ```
-！！！！！！！！！！！！！！！！！！！！！！！！！！！注意
-如果文件在 c:\projectName c drive的头文件不需要加 
+
+如果改了还是不行 出现以下问题 请把buildDir = "c:/tmp/..." delete
+![image](https://user-images.githubusercontent.com/49250073/160814167-9b1e98f1-fc84-441c-ad32-bab614bc7bf2.png)
+
+然后把整个cocos proeject 搬运去c drive的 root地方 e.g : **c:/mytestingProject**
+不一定全部project都搬运 只有要release(发布)的project才需要放去 root(根)位置
+
 2.
 Android studio 打包apk报错Execution failed for task ':app:mergeReleaseResources
 
