@@ -41,7 +41,10 @@ C:projectName\build\jsb-default\publish\newProject.apk
 
 过后手机下载运行就可以了
 
-问题遇到的 ：
+
+
+**问题遇到的 ：**
+1.
 Error while executing 'projectPath\ndk-build.cmd' with arguments {NDK_PROJECT_PATH=nul ...blablabla}
 Go to root build.gradle
 ```
@@ -53,3 +56,10 @@ allprojects {
     }
 }
 ```
+2.
+Android studio 打包apk报错Execution failed for task ':app:mergeReleaseResources
+
+aaptOptions.cruncherEnabled = false
+aaptOptions.useNewCruncher = false
+
+![image](https://user-images.githubusercontent.com/49250073/160807664-c4bed91d-a902-471b-8674-893eb28b91c1.png)
