@@ -1,4 +1,4 @@
-# cocosCreator_2.4.6v （windows）
+# cocosCreator_2.4.6v （windows）setup/android studio 解决问题ndk_node_path = null 基本上把整个project放去 C：drive 就可以了 eg: C:projectName
 
 1. 首先检查java version 是不是 1.8 SE 
 打开cmd输入 
