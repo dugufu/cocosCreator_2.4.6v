@@ -8,8 +8,8 @@ projectBuildProblem
 ```
 java -version
 ```
-![点击看图片/click here for image][image](https://user-images.githubusercontent.com/49250073/160803094-05aeacbd-f395-49fb-a241-03313aa2452a.png)
-
+![点击看图片/click here for image](https://user-images.githubusercontent.com/49250073/160803094-05aeacbd-f395-49fb-a241-03313aa2452a.png)
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 如果没有的话请去official website download
 
 https://www.oracle.com/java/technologies/downloads/#jdk18-windows
