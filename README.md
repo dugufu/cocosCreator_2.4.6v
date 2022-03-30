@@ -56,6 +56,8 @@ allprojects {
     }
 }
 ```
+！！！！！！！！！！！！！！！！！！！！！！！！！！！注意
+如果文件在 c:\projectName c drive的头文件不需要加 
 2.
 Android studio 打包apk报错Execution failed for task ':app:mergeReleaseResources
 
