@@ -46,11 +46,13 @@ allprojects {
 }
 ```
 
-1.1 如果改了还是不行 出现以下问题 请把 <span style="color: yellow">buildDir = "c:/tmp/..." delete</span>
-📂[click for image/点击查看图像](https://user-images.githubusercontent.com/49250073/160814167-9b1e98f1-fc84-441c-ad32-bab614bc7bf2.png)📂
+1.1 如果改了还是不行 还是出现以下问题 ：
+    - 📂[click for image/点击查看图像](https://user-images.githubusercontent.com/49250073/160814167-9b1e98f1-fc84-441c-ad32-bab614bc7bf2.png)📂
+    - 请把 buildDir = "C:/tmp/${rootProject.name}/${project.name}" 删除 ！ 一定要 一定要 一定要 ！
 
-1.2 然后把整个cocos proeject 搬运去c drive的 root地方 e.g : **c:/mytestingProject**
-1.3 不一定全部project都搬运 只有要release(发布)的project才需要放去 root(根)位置
+
+1.2 然后把整个cocos proeject 搬运去C drive的 root地方 e.g : **C:/mytestingProject**
+    - >Tips : 不一定全部project都搬运 只有要release(发布)的project才需要放去 root(根)位置
 
 2. Android studio 打包apk报错 ⚠️Execution failed for task ':app:mergeReleaseResources
 
