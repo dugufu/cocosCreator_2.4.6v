@@ -1,4 +1,7 @@
-# cocosCreator_2.4.6v （windows）setup/android studio 解决问题ndk_node_path = null 基本上把整个project放去 C：drive 就可以了 eg: C:projectName
+# cocosCreator_2.4.6v （windows）setup/android studio 解决问题 
+##ndk_node_path = null 基本上把整个project放去 C：drive 就可以了 eg: C:projectName
+##device not found
+##app not installed
 
 1. 首先检查java version 是不是 1.8 SE 
 打开cmd输入 
@@ -31,7 +34,7 @@ java -version
     - <span style="color: blue">C:projectName\build\jsb-default\publish\newProject.apk</span>
     - 过后手机下载运行就可以了 如果编译(compile)没有问题
 <br>
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #⚠️**我自己本身问题遇到的 ：** ⚠️
 1. ⚠️Error while executing 'projectPath\ndk-build.cmd' with arguments {NDK_PROJECT_PATH=nul ...blablabla} 
     - <span style="color: red">文件的路径太短了</span>
@@ -61,4 +64,18 @@ allprojects {
     - 打开图片看放置的位置
 📂[click for image/点击查看图像](https://user-images.githubusercontent.com/49250073/160807664-c4bed91d-a902-471b-8674-893eb28b91c1.png)📂
 
-If required english ver pls email to me **cchunren1997@gmail.com**
+3. app not installed （debug/release） version
+    - 基本上这个是你的keystore 
+        - 分配不是用同一个key 先把全部demo或者现有的app给卸载先 就只安装唯一个想要的app就可以了 （只安装一个）
+
+4. 如果是device no found
+`
+Performing Push Install
+adb: error: failed to get feature set: no devices/emulators found
+Error running command, return code: -1.
+`
+    - 这个问题就比较简单 看你连接了手机或者浏览起了吗
+        - 可以看这里 [链接](https://www.cnblogs.com/gamedaybyday/p/13576629.html) 🔗
+        
+        
+If required english ver pls email to me **cchunren1997@gmail.com** 📧
