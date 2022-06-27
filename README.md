@@ -10,7 +10,7 @@ java -version
 ```
 ![点击看图片/click here for image](https://user-images.githubusercontent.com/49250073/160803094-05aeacbd-f395-49fb-a241-03313aa2452a.png)
 
-> 如果没有的话请去official website download - [download link](https://www.oracle.com/java/technologies/downloads/#jdk18-windows)🔗
+> 如果没有的话请去official website download - [download link](https://www.oracle.com/java/technologies/downloads/#java8-windows)🔗
 
 2. 配置java_environment
 [java_environment setup /java环境配置](https://www.runoob.com/w3cnote/windows10-java-setup.html) 🔗
